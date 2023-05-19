@@ -6,7 +6,6 @@
     "build:dev": "cross-env REACT_APP_ENV=dev UMI_ENV=dev umi build",
     "build:qa": "cross-env REACT_APP_ENV=qa UMI_ENV=qa umi build",
     "build:pro": "cross-env REACT_APP_ENV=pro UMI_ENV=pro umi build",
-
     "postinstall": "umi generate tmp",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "test": "umi-test",
